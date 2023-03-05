@@ -17,15 +17,29 @@
 // let: permite ser manipulada de forma diferente dentro de blocos diferentes, mas deve sempre ser declarada no início do codigo
 // const: valor constante que nunca será alterado. deve ser declarada no início do código e possuir um valor    
 
-let altura = 5;
-let comprimento = 7
-let area = 'circulo';
+// let altura = 5;
+// let comprimento = 7
+// let area = 'circulo';
 
-if(area === 'quadrado'){
-    console.log(altura * comprimento)
-} 
-else if (area === 'triangulo'){
-    console.log(altura * comprimento / 2)
+// if(area === 'quadrado'){
+//     console.log(altura * comprimento)
+// } 
+// else if (area === 'triangulo'){
+//     console.log(altura * comprimento / 2)
+// }
+// else 
+// console.log('Forma desconhecida!')
+
+
+var respostaDeTudo = 42
+let idade = 29
+const pi = 3.14
+
+{
+    var respostaDeTudo = 3.14
+    let idade = 42
+    const pi = 29
+    console.log(respostaDeTudo, idade, pi)
+
 }
-else 
-console.log('Forma desconhecida!')
+console.log(respostaDeTudo, idade, pi)
